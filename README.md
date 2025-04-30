@@ -1,1 +1,37 @@
-# react-TicTacToe
+# React Tic Tac Toe Game
+
+A classic Tic Tac Toe game built with React and styled using Tailwind CSS.
+
+## Description
+
+This is a web-based implementation of the classic Tic Tac Toe game where two players ('X' and 'O') take turns marking spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. If all squares are filled and no player has won, the game ends in a draw.
+
+## Technologies Used
+
+- **React:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Node.js & npm (or yarn):** For package management and running the development server.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/bkandh30/react-TicTacToe.git
+    cd react-TicTacToe
+    ```
+2.  **Install dependencies:**
+    Make sure you have Node.js and npm (or yarn) installed.
+    ```bash
+    npm install
+    # or
+    # yarn install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm start
+    # or
+    # yarn start
+    ```
+    This will usually open the application in your default web browser at `http://localhost:3000`.
