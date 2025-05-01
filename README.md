@@ -10,7 +10,7 @@ This is a web-based implementation of the classic Tic Tac Toe game where two pla
 
 - **React:** JavaScript library for building user interfaces.
 - **Tailwind CSS:** Utility-first CSS framework for styling.
-- **Node.js & npm (or yarn):** For package management and running the development server.
+- **Node.js & npm:** For package management and running the development server.
 
 ## Getting Started
 
