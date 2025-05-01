@@ -24,14 +24,11 @@ To run this project locally, follow these steps:
 2.  **Install dependencies:**
     Make sure you have Node.js and npm (or yarn) installed.
     ```bash
+    cd react
     npm install
-    # or
-    # yarn install
     ```
 3.  **Start the development server:**
     ```bash
     npm start
-    # or
-    # yarn start
     ```
-    This will usually open the application in your default web browser at `http://localhost:3000`.
+    This will usually open the application in your default web browser at `http://localhost:5173`.
