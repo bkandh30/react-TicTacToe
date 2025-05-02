@@ -149,9 +149,9 @@ export default function Game() {
     // Render the game component
     return (
     // Main container with Tailwind flex layout, centering, padding, and background
-    <div className="flex flex-col md:flex-row justify-center items-start min-h-screen bg-gray-100 p-4 md:p-8 font-sans">
+    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 p-4 md:p-8 font-sans">
       {/* Game Board Area */}
-      <div className="game-board mb-6 md:mb-0 md:mr-8 flex flex-col items-center">
+      <div className="game-board mb-6 md:mb-0 md:mr-8 w-full md:w-auto flex flex-col items-center justify-center">
         {/* Centering board elements */}
         {/* Game Title */}
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Tic Tac Toe</h1>
@@ -171,7 +171,7 @@ export default function Game() {
 
       {/* Game Info Area (Move History) */}
       {/* Tailwind styling for the history panel */}
-      <div className="game-info bg-white p-4 rounded-lg shadow-md w-full md:w-auto max-w-xs"> {/* Added max-width */}
+      <div className="game-info bg-white p-4 rounded-lg shadow-md w-full md:w-64"> {/* Fixed width on md screens */}
         <h2 className="text-xl font-semibold mb-3 text-gray-700 border-b pb-2">Game History</h2>
         {/* Ordered list for moves */}
         <ol className="list-decimal list-inside space-y-1">{moves}</ol>
