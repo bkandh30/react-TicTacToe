@@ -4,7 +4,9 @@ A classic Tic Tac Toe game built with React and styled using Tailwind CSS.
 
 ## Description
 
-This is a web-based implementation of the classic Tic Tac Toe game where two players ('X' and 'O') take turns marking spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. If all squares are filled and no player has won, the game ends in a draw.
+This is a web-based implementation of the classic Tic Tac Toe game where two players ('X' and 'O') take turns marking spaces in a 3x3 grid.
+
+I created this project to learn React and Tailwind CSS.
 
 ## Technologies Used
 
